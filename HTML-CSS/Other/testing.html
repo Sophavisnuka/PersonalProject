@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<body>
+    <h1>Testing Javascript</h1>
+    <p id="Output"></p>
+    <script>
+        function varExample() {
+            var x = 10;
+            if (true) {
+                var x = 20;
+                document.getElementById("Output").innerText += "Inside block (var): " + x + "\n";
+            }
+            document.getElementById("Output").innerText += "Outside block (var): " + x + "\n";
+        }
+        function letExample() {
+            let y = 10;
+            if (true) {
+                let y = 20;
+                document.getElementById("Output").innerText += "Inside block (let): " + y + "\n";
+            }
+            document.getElementById("Output").innerText += "Outside block (let): " + y + "\n";
+        }
+        function constExample() {
+            const z = 30;
+            document.getElementById("Output").innerText += "Constant value (const): " + z + "\n";
+        }
+        document.get
+        varExample();
+        letExample();
+        constExample();
+    </script>
+</body>
+</html>

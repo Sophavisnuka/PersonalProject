@@ -1,0 +1,97 @@
+
+#Name {
+    margin-top: -10px;
+    position: fixed;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+img {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 5%;
+    z-index: -1;
+}
+.sideText {
+    width: 40%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 20px;
+    box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.5);
+    padding: 10px 40px;
+    margin-left: 40rem;
+    margin-top: -22rem;
+    z-index: -1;
+}
+h1 {
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.first {
+    margin-top: 12rem;
+    margin-left: 16rem;
+    width: 60%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 20px;
+    box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.5);
+    padding: 10px 40px;
+    z-index: -1;
+}
+.second {
+    margin-top: 12rem;
+    margin-left: 16rem;
+    width: 60%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 20px;
+    box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.5);
+    padding: 10px 40px;
+    z-index: -1;
+}
+#other {
+    width: 12%;
+    text-align: center;
+    margin-left: 42rem;
+    margin-top: 100px;
+}
+.third {
+    /* width: 16%; */
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1 {
+    width: 16%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 20px;
+    padding: 4rem 20px;
+}
+.container2  {
+    width: 16%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 20px;
+    padding: 4rem 20px;
+}
+.container3 {
+    width: 16%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.container4 {
+    width: 16%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 20px;
+    padding: 4rem 20px;
+}
+.youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}

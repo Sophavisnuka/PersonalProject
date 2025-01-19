@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-color: rgb(1, 4, 46);
+    color: white;
+}
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.name {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.home {
+    color: rgb(83, 141, 228);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 30px;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 0.2s;
+}
+nav a:hover {
+    color: rgb(33, 26, 180);
+}
+section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 7%;
+}
+.context {
+    max-width: 700px;
+    /* background-color:rgb(255, 255, 255); */
+    border-radius: 20px;
+    padding: 20px 35px 20px;
+}
+.context h1 {
+    font-size: 40px;
+    color: rgb(83, 141, 228);
+}
+.context ,h3 ,p{
+    color: rgb(255, 255, 255);
+}
+.image {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+img {
+    width: 50%;
+    border-radius: 10%;
+    margin-right: 45px;
+}
+.icon {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    background: transparent;
+}
+.icon a {
+    font-size: 30px;
+}

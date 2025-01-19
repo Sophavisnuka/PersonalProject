@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="column.css">
+</head>
+<body>
+    <table>
+        <tr class="row" style="background-color: aqua;">
+            <th>Device</th>
+            <th>Brand</th>
+            <th style="width: 200px;" colspan="2">Specification</th>
+        </tr>
+        <tr class="column">
+            <td style="font-size: 20px;" rowspan="3">Smartphone</td>            
+            <td style="font-size: 20px;" rowspan="3">Apple</td>  
+            <td id="Model">Model</td>     
+            <td id="Storage">Storage</td>     
+        </tr>
+        <tr>
+            <td>Iphone 15</td>
+            <td>512GB</td>
+        </tr>
+        <tr>
+            <td>Iphone SE</td>
+            <td>256GB</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>Nokia</td>
+            <td colspan="2">15.6"Display</td>
+        </tr>
+        <tr>
+            <td>Tablet</td>
+            <td>Tesla</td>
+            <td colspan="2">10.6"Display</td>
+        </tr>
+    </table>
+</body>
+</html>

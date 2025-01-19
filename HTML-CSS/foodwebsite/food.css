@@ -1,0 +1,309 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-size: cover;
+    background-color: white;
+}
+
+.text {
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 171, 78);
+    width: 100%;
+    padding: 10px 10%;
+    z-index: 1;
+}
+
+.nav-one ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-one ul li {
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+img {
+    width:40px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    left: 100px;
+}
+
+.logo {
+    color: rgb(253, 171, 78);
+    font-size: 30px;
+}
+
+.nav-bar {
+    top: 49px;
+    left: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px 10%;
+    z-index: 1;
+}
+
+.nav-two {
+   left: 260px;
+}
+
+.nav-two ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-two ul li a {
+    font-size: 25px;
+    color: rgb(253, 171, 78);
+    margin-left: 40px;
+    transition: .3s;
+} 
+
+.nav-two ul li a:hover {
+    color: white;
+    padding: 4px;
+    background-color: rgb(253, 171, 78);
+    border-radius: 10px;
+}
+
+.nav-two ul form input {
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.nav-two ul form i {
+    font-size: 35px;
+    position: fixed;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 285px;
+    z-index: -1;
+}
+section {
+    padding: 100px 10%;
+}
+.main {
+    background-color: rgb(253, 171, 78);
+    
+}
+.main .hotdog {
+    width: 35%;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.main .burger {
+    width: 35%;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 680px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: 0.3s;
+}
+
+h2 {
+    margin-top: 150px;
+    font-size: 50px;
+    margin-left: -50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+input {
+    border: 2px solid rgb(253, 171, 78);
+    background-color: rgb(253, 171, 78);
+    border-radius: 10px;
+    font-size: 20px;
+    height: 35px;
+    
+}
+
+p {
+    margin-top: 10px;
+    margin-left: -50px;
+    color: rgb(253, 171, 78);
+    font-size: 25px;
+}
+
+button {
+    margin-left: -50px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 8%;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.a {
+    color: rgb(253, 171, 78);
+    border: 2px solid rgb(253, 171, 78);
+    border-radius: 10px;
+    background: transparent;
+}
+.b {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(253, 171, 78);
+    margin-left: 20px;
+}
+.a:hover {
+    color: white;
+    background-color: rgb(253, 171, 78);
+    width: 120px;
+}
+
+.b:hover {
+    width: 120px;
+}
+
+.menu {
+    padding: 250px 10%;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(253, 171, 78);
+    border-radius: 10px;
+}
+
+#food {
+    font-size: 45px;
+    color: white;
+    position: relative;
+    left: 20px;
+}
+
+.see-more {
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    left: -20px;
+}
+
+.see-more:hover {
+    width: 120px;
+}
+
+.food {
+    height: 460px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 5px solid rgb(253, 171, 78);
+    box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    z-index: -1;
+}
+
+.food img {
+    padding: 20px;
+    width: 300px;
+    position: relative;
+    left: -1px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.pizza {
+    height: 430px;
+}
+
+.sandwich {
+    height: 430px;
+}
+
+.burger:hover {
+    transform: scale(1.2);
+}
+
+.hotdog:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width: 1000px) {
+    .logo {
+        font-size: 25px;
+        text-align: center;
+    }
+    .nav-bar {
+        position: fixed;
+        margin-top: -10px;
+    }
+    .nav-bar img {
+        position: relative;
+        left: -150px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .nav-one ul li {
+        font-size: 20px;
+    }
+    form input{
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        top: 80px;
+        left: -330px;
+    }
+    form i {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        top: 140px;
+        left: 270px;
+    }
+    .main {
+        position: absolute;
+    }
+}
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: rgb(253, 171, 78);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+}
