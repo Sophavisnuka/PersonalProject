@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="to-do-app">
+            <h2>To do list</h2>
+            <div class="to-do-list">
+                <input type="text" id="input" placeholder="Add any task">
+                <button id="add" onclick="addItem()">Add</button>
+            </div>
+            <div id="list">
+                <p>You have <span class="countValue">0</span> task(s) to complete</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
